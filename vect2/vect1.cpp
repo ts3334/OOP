@@ -22,9 +22,7 @@ void f()
 	vect v2 = v;
 	v.set(1, 9.9);
 	v2.set(0, 8.8);
-	cout << v.get(0) << ' '<< v2.get(0) << ' ' << v2.get(1)<<  endl;
-	v.delete;
-}
+	cout << v.get(0) << ' '<< v2.get(0) << ' ' << v2.get(1)<<  endl;}
 
 int main() {
 	for (int i = 0; i<100000; i++) {
