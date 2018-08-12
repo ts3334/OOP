@@ -73,7 +73,7 @@ void calculate(Token_stream& ts)
 int main()
 {
 	Token_stream ts;
-	helper();
+	cout << "Enter 'help' to see help menu." << endl;
 	try {
 		calculate(ts);
 		keep_window_open();
